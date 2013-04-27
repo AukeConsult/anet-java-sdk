@@ -78,7 +78,7 @@
 	<distributionManagement>
 		<repository>
 			<id>thirdparty</id>
-			<url>http://ec2-79-125-41-43.eu-west-1.compute.amazonaws.com:8081/nexus/content/repositories/thirdparty/</url>
+			<url>http://ec2-79-125-41-43.eu-west-1.compute.amazonaws.com:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
