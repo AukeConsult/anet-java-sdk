@@ -204,6 +204,7 @@ public class HttpClient {
 						Environment.SANDBOX_TESTMODE.equals(environment)) {
 					InputStream outstream = (InputStream)httpPost.getEntity().getContent();
 					String requestData = convertStreamToString(outstream);
+					 httpClient = WebClientDevWrapper.wrapClient(httpClient);
 					logger.debug("SANDBOX MODES ONLY>> Url-encoded request data: " + requestData);
 				}
 
